@@ -16,6 +16,7 @@ import com.educandoweb.course.services.UserService;
 @RequestMapping(value = "/users")
 public class UserResource {
 	
+	// Injeção de dependências
 	@Autowired
 	private UserService service;
 	
